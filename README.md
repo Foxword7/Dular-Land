@@ -1,31 +1,49 @@
-# Dular-Land:
-  The Official Github Repository of Dular Land's Bank by The Head of the Economic Department of Dular Land
+# Dular-Land
+The Official Github Repository of Dular Land's Bank by The Head of the Economic Department of Dular Land
 
-# _DISCLAIMER:_
-  I am a beginner at coding so the code may not reflect the best industry practices or may just be downright bad. I apologize for this so
-  **THANK YOU FOR YOUR UNDERSTANDING**
+### _DISCLAIMER:_
+I am a beginner at coding so the code may not reflect the best industry practices or may just be downright bad. I apologize for this so **THANK YOU FOR YOUR UNDERSTANDING**
 
-# Prerequisites: 
-  Python 3.11+,
-  Internet Connection,
-  Email and then do the following
-  # Create a virtual environment(if you are going to download the source code): 
-  run python3 -m venv .venv first to create the virtual environment
+---
 
-  # Activate The Environment(if you are going to download the source code):
-  **On macOS/Linux:**
-  run this on bash: "source .venv/bin/activate"
-  **On Windows:**
-  run this on command prompt: ".venv\Scripts\activate"
-  libraries in the requirements.txt(if you are going to download the source code, instructions are below, under subheading: For Other Operating Systems or to directly run the source code:")
+## Prerequisites
+* Python 3.11+
+* Internet Connection
+* Email
 
-# How To Directly Download: 
-  Download the latest release for Windows from the **releases**  section, for the latest release link [click here](https://github.com/ItsFoxswordBro/Dular-Land-Bank/releases/tag/v0.1.1)
+### Create a virtual environment (if you are going to download the source code):
+Run `python3 -m venv .venv` first to create the virtual environment.
 
-# For Other Operating Systems or to directly run the source code: 
-If you want to run the source code directly or are on MacOS/Linux then download the source code/project as a zip file and extract it, then run "python3 -m pip install -r requirements.txt" to download the required libraries or you can also download them manually(this works on Windows as well)
+### Activate The Environment (if you are going to download the source code):
+**On macOS/Linux:**
+Run this on Terminal:
+`source .venv/bin/activate`
 
-  # How to use the Bank: 
-  Its Very Simple! Just click signup to create an account if you don't have one, else click login to login(or sign in) to an existing account!
+**On Windows:**
+Run this on command prompt:
+`.venv\Scripts\activate`
 
-  For now, unfortunately these are all the features...
+*Note: You must also install the libraries in the requirements.txt (instructions are below, under subheading: "For Other Operating Systems or to directly run the source code").*
+
+---
+
+## How To Directly Download
+Download the latest release for Windows from the **releases** section. For the latest release link [click here](https://github.com/ItsFoxswordBro/Dular-Land-Bank/releases/tag/v0.1.1) and you're done! Now just double click the newly installed file and you have opened Dular Land Bank! 
+
+*For a manual on how to use it skip to the subheading "How to use the Bank".*
+
+---
+
+## For Other Operating Systems or to directly run the source code
+If you want to run the source code directly or are on MacOS/Linux then download the source code/project as a zip file and extract it, then run "python3 -m pip install -r requirements.txt" to download the required libraries or you can also download them manually(this works on Windows as well).
+
+### Running from Source
+If you prefer to run the application directly from the source code (or are using macOS/Linux), follow these steps:
+
+1. **Download and Extract:** Download the repository as a ZIP file and extract it to your preferred location.
+2. **Install Dependencies:** Open your terminal, navigate into the project folder (the one containing `DularLandBankPrototype.py`), and run:
+   ```bash
+   pip install -r requirements.txt
+3. Without exitting the terminal, still in the same folder run:
+      ```bash
+   python DularLandBankPrototype.py
